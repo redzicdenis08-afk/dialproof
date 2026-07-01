@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dialproof"
+version = "0.1.0"
+description = "Receipt-backed QA audits for AI voice-agent call transcripts: configurable checks, per-call scoring, and a dry-run-by-default action gate."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Denis Redzic" }]
+keywords = [
+    "voice-ai",
+    "qa",
+    "call-audit",
+    "transcripts",
+    "voice-agents",
+    "conversation-analysis",
+    "quality-assurance",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Communications :: Telephony",
+    "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[project.scripts]
+dialproof = "dialproof.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/redzicdenis08-afk/dialproof"
+Issues = "https://github.com/redzicdenis08-afk/dialproof/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["dialproof"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

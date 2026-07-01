@@ -1,0 +1,15 @@
+{
+  "call_id": "call_ridgeline_demo",
+  "turns": [
+    {"role": "agent", "text": "Thanks for calling Ridgeline HVAC! This is Sky, our AI assistant. How can I help you today?", "t": 0},
+    {"role": "customer", "text": "Hi, I'd like to schedule a furnace tune-up for Thursday.", "t": 6},
+    {"role": "agent", "text": "Thanks for calling Ridgeline HVAC! This is Sky, our AI assistant. How can I help you today?", "t": 14},
+    {"role": "customer", "text": "Uh, I just said it. A furnace tune-up on Thursday?", "t": 18},
+    {"role": "agent", "text": "We offer furnace tune-ups, duct cleaning, and emergency repair. Would you like to hear about our service areas?", "t": 24},
+    {"role": "customer", "text": "No. Thursday, please.", "t": 29},
+    {"role": "agent", "text": "Sorry, I didn't catch that. Could you repeat your request?", "t": 35},
+    {"role": "customer", "text": "Can I just talk to a real person?", "t": 41},
+    {"role": "agent", "text": "Our office hours are Monday through Friday, eight to five.", "t": 47},
+    {"role": "customer", "text": "Forget it. Is there any way to book online?", "t": 52}
+  ]
+}

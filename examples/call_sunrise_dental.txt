@@ -1,0 +1,4 @@
+Agent: Hello! You've reached Sunrise Dental. This is Milo, an automated scheduling assistant.
+Customer: Hi there, do you take new patients at the moment?
+Agent: As an AI language model, I cannot access the patient database right now.
+Customer: Okay... so how do I book a cleaning?

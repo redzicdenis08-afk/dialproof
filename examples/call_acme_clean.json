@@ -1,0 +1,16 @@
+{
+  "call_id": "call_acme_clean",
+  "turns": [
+    {"role": "agent", "text": "Hi, thanks for calling Acme Plumbing! This is Ava, the automated assistant. How can I help you today?", "t": 0},
+    {"role": "customer", "text": "Hey, my water heater is leaking. Do you do same-day visits?", "t": 4},
+    {"role": "agent", "text": "Sorry to hear that. Yes, we can get a technician out today. Can I have your name and street address?", "t": 7},
+    {"role": "customer", "text": "Sure, it's Jamie Miller, 12 Elm Street.", "t": 12},
+    {"role": "agent", "text": "Thanks Jamie. We have a 2 pm or a 4:30 pm slot open today. Which works better for you?", "t": 15},
+    {"role": "customer", "text": "Hmm, 2 pm might be tricky. And honestly it sounds expensive.", "t": 19},
+    {"role": "agent", "text": "I totally understand. The visit fee is fifty dollars and it goes toward the repair if you go ahead. Would the 4:30 pm slot work for you?", "t": 23},
+    {"role": "customer", "text": "Okay, yeah, let's book the 4:30 please.", "t": 28},
+    {"role": "agent", "text": "You're booked for 4:30 pm today, Jamie. You'll get a confirmation text shortly. Anything else I can do?", "t": 31},
+    {"role": "customer", "text": "No, that's everything, thank you so much.", "t": 35},
+    {"role": "agent", "text": "Great, take care, and see you at 4:30!", "t": 38}
+  ]
+}
